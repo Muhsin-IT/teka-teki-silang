@@ -1,0 +1,22 @@
+--- README.md ---
+# TTS Lomba - PHP + HTML + CSS + JS
+
+Folder structure (letakkan di htdocs/tts-lomba):
+- index.php            -> Tampilan layar proyektor (peserta)
+- admin.php            -> Halaman kontrol admin (laptop)
+- api.php              -> Endpoint sederhana untuk baca/tulis state (Ajax)
+- questions.php        -> Data soal (array PHP)
+- state.json           -> File state (akan dibuat otomatis)
+- assets/style.css     -> CSS
+- assets/script.js     -> JS bersama
+
+Cara pakai:
+1. Salin folder `tts-lomba` ke `htdocs` (XAMPP) atau folder web server kamu.
+2. Jalankan XAMPP / Apache.
+3. Buka di browser:
+   - Layar proyektor: http://localhost/tts-lomba/index.php
+   - Halaman admin:   http://localhost/tts-lomba/admin.php
+
+Catatan:
+- Sistem menyimpan state di `state.json`. Jika ada masalah permission, ubah permission file agar PHP dapat menulis.
+- Soal contoh sudah terisi di `questions.php`. Kamu bisa edit di sana.

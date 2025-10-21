@@ -1,0 +1,34 @@
+[
+    {
+        "no": 2,
+        "question": "pebantu dokter",
+        "answer": "SUSTER",
+        "x": 5,
+        "y": 3,
+        "dir": "down"
+    },
+    {
+        "no": 1,
+        "question": "menghisap asap",
+        "answer": "MEROKOK",
+        "x": 4,
+        "y": 7,
+        "dir": "across"
+    },
+    {
+        "no": 5,
+        "question": "aojishugygda",
+        "answer": "NEGNEISNZ",
+        "x": 7,
+        "y": 3,
+        "dir": "across"
+    },
+    {
+        "no": 3,
+        "question": "siapa nama saya",
+        "answer": "MUHSIN",
+        "x": 2,
+        "y": 5,
+        "dir": "across"
+    }
+]
